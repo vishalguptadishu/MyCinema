@@ -26,7 +26,7 @@ const Sliding=()=>{
         <div className="Sliding_img" >
                 <div className="Posters"  >
                     <div className='div1' >
-                      <h1>Bloody Daddyffffdsf</h1>
+                      <h1>Bloody Daddy</h1>
                       <p>ABiyoiid dbfc ohs</p>
                     </div> 
                     <div className='div2'>
