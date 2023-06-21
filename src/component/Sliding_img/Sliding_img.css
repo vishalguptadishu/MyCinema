@@ -1,21 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .Sliding_img{
-    display: flex;
     overflow-y: hidden;
 }
-.Posters h1{
-    color: white;
-}
+
 .Posters {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px; 
-    border: 1px solid red;
-} 
-.Posters img{
+    height: 100vh;
+    width: 100vw;
+}
+
+.div1{
+    color: white;
+    height: 90vh;
+    width: 30vw;
+}
+.div1 h1{
+    margin-top: 70vh;
+}
+.div2{
+    height: 90vh; 
+    width: 70vw;
+}
+.div2 img{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px; 
-    border: 1px solid red;
+    height: 100%; 
+    width: 100%;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    padding: 20px;
 } 

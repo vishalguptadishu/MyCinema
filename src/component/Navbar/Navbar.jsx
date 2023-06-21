@@ -1,8 +1,14 @@
 import './Navbar.css'
 
 import Search from '../search/Search'
+import NextButton from '../../Bottons/NextButton/NextButton'
+function alartHendal(){
+    alert("helloooo2222222222")
+}
 
 const Navbar =()=>{
+
+   
     return (
         <div className="Navbar">
             <div className='part_1'>
@@ -26,6 +32,7 @@ const Navbar =()=>{
                 </div>
                 
             </div>
+            <NextButton onClick1={alartHendal}  />
         </div>
     )
 }
