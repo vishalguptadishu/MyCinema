@@ -1,8 +1,12 @@
 import './PrevButton.css'
 
-const PrevButton =()=>{
+const PrevButton =({PrevupdateIndex})=>{
+ function HandalPrevBtn(){
+  PrevupdateIndex()
+ }
+  
     return (
-        <div className='PrevButton'>
+        <div className='PrevButton' onClick={HandalPrevBtn} >
           <img src="https://www.jiocinema.com/images/carousel/BackArrow.svg" alt="btn_imhg" />
         </div>
     )

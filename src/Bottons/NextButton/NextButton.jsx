@@ -1,16 +1,11 @@
 import './NextButton.css'
 
-const NextButton =({ onClick1, currentIndex })=>{
+const NextButton =({ NextupdateIndex })=>{
 
   const handleClick = () => {
-    if(onClick1){
-      onClick1()
-    }else {
-      currentIndex()
-    }
+    NextupdateIndex();
   };
 
- 
     return (
         <div className='NextButton' onClick={handleClick} >
           <img src="https://www.jiocinema.com/images/carousel/ForwardArrow.svg"  alt="" />

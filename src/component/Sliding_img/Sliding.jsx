@@ -15,29 +15,55 @@ let obj1 =[
 
 
 const Sliding=()=>{
-    // const [currentIndex, setCurrentIndex] = useState(0);
-
-    const currentIndex = () => {
+    const [ObjIndex, setObjIndex] = useState(0);
+    
+    const NextupdateIndex = () => {
+        if(ObjIndex===obj1.length-1){
+            setObjIndex(0)
+        }else {
+            setObjIndex(ObjIndex + 1)
+        }
         
-        alert("hello11111111111")
       };
+
+    const PrevupdateIndex = () => {
+        if(ObjIndex===0){
+            setObjIndex(obj1.length-1)
+        }else {
+            setObjIndex(ObjIndex - 1)
+        }
+        
+      };
+
+      function ponitBtn(ind){
+        setObjIndex(ind)
+      }
 
     return (
         <div className="Sliding_img" >
                 <div className="Posters"  >
                     <div className='div1' >
                       <h1>Bloody Daddy</h1>
-                      <p>ABiyoiid dbfc ohs</p>
                     </div> 
                     <div className='div2'>
-                       {/* <img  src={obj1[currentIndex].url} alt="img" /> */}
+                       <img key={ObjIndex}  src={obj1[ObjIndex].url} alt="img" />
                     </div>   
                 </div>
+              
             <div className='button'>
-            <PrevButton />
-            <NextButton currentIndex={currentIndex}  />
+              <div className='DotBar' >
+              {
+                obj1.map((ele, ind)=>(<h3 className={(ind===ObjIndex) ? "active" : ""} onClick={()=>{ponitBtn(ind)}} >&bull;</h3> ))
+              }
+
+              </div> 
+              <div className='NextPrevBtn'>
+                <PrevButton PrevupdateIndex={PrevupdateIndex} />
+                <NextButton  NextupdateIndex={NextupdateIndex} />
+              </div>
+                
             </div>
-           
+            
             
         </div>
     )

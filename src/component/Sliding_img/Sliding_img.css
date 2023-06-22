@@ -36,7 +36,29 @@
 .button{
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.NextPrevBtn{
+    display: flex;
+    align-items: center;
     justify-content: end;
     gap: 20px;
-    padding: 20px;
+    padding: 10px;
+    margin-right: -45vw;
 } 
+
+.DotBar{
+    color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 6px;
+   cursor: pointer;
+   font-size: 22px;
+   margin-right:35vw;
+}
+.active{
+    color: red;
+   font-size: 32px;
+   
+}
