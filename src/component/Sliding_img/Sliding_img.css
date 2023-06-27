@@ -46,7 +46,7 @@
 } 
 
 .DotBar{
-    color: white;
+    color: rgb(28, 57, 138);
    display: flex;
    align-items: center;
    justify-content: center;
