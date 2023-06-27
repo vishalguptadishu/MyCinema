@@ -41,11 +41,11 @@ const Sliding=()=>{
 
     return (
         <div className="Sliding_img" >
-                <div className="Posters"  >
-                    <div className='div1' >
-                      <h1>Bloody Daddy</h1>
-                    </div> 
+                <div className="Posters" > 
                     <div className='div2'>
+                    <div className='div1' >
+                      <h1>{elem.Title}</h1>
+                    </div> 
                        <img key={ObjIndex}  src={obj1[ObjIndex].url} alt="img" />
                     </div>   
                 </div>
