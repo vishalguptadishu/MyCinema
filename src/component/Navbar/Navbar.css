@@ -4,34 +4,45 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif , 'Courier New';
     font-weight: 600;
-   
     color: white;
+    width: 100vw;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: sticky;
 }
 
 .part_1{
     display: flex;
     align-items: center;
     justify-content: start;
+    
 }
 
 .logo{
-    margin-left: 50px;
+    margin-left: 3vw;
 }
 p{
-    margin-left: 10px;
+    margin-left: 1vw;
     font-size: 20px;
 }
-ul,li{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+ul{
+    margin-left: 20px;
+}
+li{
+    display: inline-block;
+    margin-left: 20px;
+   
 }
 li:nth-child(1){
     font-size: 14px;
+    color:gold ;
+   border: 1px solid gold;
+   border-radius: 15px;
+   padding: 5px 20px 5px 20px;
 }
 .Search{
-margin-left: 400px;
+margin-left: 28vw;
 }
 
 .info img{

@@ -1,14 +1,10 @@
-import Navbar from '../src/component/Navbar/Navbar'
 import './App.css';
-
-import Sliding from '../src/component/Sliding_img/Sliding'
-
+import Movie from './pages/Movie/Movie';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      
-      <Sliding />
+      {/* <Home /> */}
+      <Movie />
     </div>
   );
 }

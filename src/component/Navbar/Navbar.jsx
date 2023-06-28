@@ -17,8 +17,8 @@ const Navbar =()=>{
                 <ul>
                     <li>Subscribe</li>
                     <li>For You</li>
-                    <li>Sports</li>
-                    <li>Free</li>
+                    <li>Movies</li>
+                    <li>TVs</li>
                     <li>Premium</li>
                 </ul>
                 <div className='Search' >
