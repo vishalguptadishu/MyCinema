@@ -1,17 +1,29 @@
-.cart{
+.Cart{
     display: flex;
     /* align-items: center; */
-    overflow-x: auto;
+    overflow-x:scroll;
     gap: 8px;
     margin-left: 10px;
+ 
 }
 
-.cart img{
+.Cart_main::-webkit-scrollbar {
+    display: none;
+}
+.Cart_main{
+    height: 250px;
+    width: 220px;
+    display: flex;
+}
+
+.Cart_main img{
 height: 250px;
 width: 220px;
 border-radius: 15px;
 
 }
+
+
 
 /* .cart img:hover{
     height: 350px;
