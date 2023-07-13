@@ -1,0 +1,144 @@
+.Subscribe{
+    background-image: url("https://prod-voot-images.s3.ap-south-1.amazonaws.com/v3Storage/subscription/tieredPlans/banner/web/all/2/bg.png");
+    height: 100vh;
+    width: 100vw;
+    /* object-fit: cover; */
+}
+.headar{
+    text-align: center;
+    color: white;
+    
+}
+.headar h4{
+    
+    margin-top: 20px;
+}
+.Subscribe_cart{
+ height: 30%;
+ width: 35%;
+ border: 2px solid rgb(165, 137, 80);
+ background-color: #450648;
+ border-radius: 7px;
+ margin:auto;
+ margin-top: 50px;
+}
+.Subscribe_cart h2{
+    background-color: #450648;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+   }
+
+
+.cart_top li{
+    color: white;
+    background-color:#450648;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.cart_bottom{
+    background-color: #450648;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+}
+.cart_bottom_p{
+    background-color: #450648;
+    border: 2px solid rgb(165, 137, 80);
+    border-radius: 10px;
+    padding: 10px;
+    /* font-size: 12px; */
+   
+}
+.cart_bottom h1{
+    background-color: #450648;
+    color: white;
+}
+.cart_bottom h1 samp{
+    background-color: #450648;
+    color: white;
+    font-size: 20px;
+}
+
+.discription_p {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+    background: transparent;
+}
+.discription_p p{
+    font-size: 12px;
+    background: transparent;
+    color: gray;
+}
+.discription_p span{
+    cursor: pointer;
+    color:#450648;
+    background-color: transparent;
+}
+.payment_button {
+    
+    background-color: transparent;
+    text-align: center;
+    margin-top: 50px;
+}
+.payment_button button{
+    width: 15vw;
+    height: 8vh;
+    color: white;
+    background-color: #450648;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:480px){
+    .Subscribe{
+        height: 100vh;
+    }
+
+    .Subscribe_cart{
+        height: 14%;
+        width: 90%;
+        border: 2px solid rgb(165, 137, 80);
+        background-color: #450648;
+        border-radius: 7px;
+        margin:auto;
+        margin-top: 50px;
+        
+       }
+
+       .cart_bottom{
+        background-color: #450648;
+        display: flex;
+        
+        justify-content: space-between;
+        align-items: center;
+        /* margin-left: 20px; */
+        /* margin-right: 20px; */
+        /* margin-top: 10px; */
+        
+    }
+    .discription_p p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .payment_button {
+    
+        background-color: transparent;
+        text-align: center;
+        margin-top: 50px;
+       
+    }
+    .payment_button button{
+        width: 60vw;
+        height: 4vh;
+        
+    }
+
+    
+}

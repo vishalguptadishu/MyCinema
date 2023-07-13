@@ -1,51 +1,119 @@
-
-.Navbar{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif , 'Courier New';
-    font-weight: 600;
-    color: white;
-    width: 100vw;
-    height: 20px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    position: sticky;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-
-.part_1{
+nav{
     display: flex;
     align-items: center;
-    justify-content: start;
-    
+    width: 100vw;
+    height: 12vh;
 }
-
 .logo{
-    margin-left: 3vw;
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    margin-left: 4vw;
+}
+.logo img{
+    height: 80px;
+}
+.logo p{
+    color: white;
+    font-size: 22px;
 }
 p{
-    margin-left: 1vw;
-    font-size: 20px;
-}
-ul{
-    margin-left: 20px;
-}
-li{
-    display: inline-block;
-    margin-left: 20px;
-   
-}
-li:nth-child(1){
+    color: white;
     font-size: 14px;
-    color:gold ;
-   border: 1px solid gold;
-   border-radius: 15px;
-   padding: 5px 20px 5px 20px;
 }
-.Search{
-margin-left: 28vw;
+.ul1{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 2vw;
+}
+.ul1 li{
+    list-style: none;
+    font-size: 15px;
 }
 
+.ul2{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 400px;
+    position: absolute;
+    width: 100vw;
+    gap: 20px;
+    margin-left: 2vw;
+}
+.ul2 li{
+    list-style: none;
+    font-size: 18px;
+}
+.active{
+    border: 1px solid gold;
+    padding:  6px 20px 6px 20px;
+    border-radius: 20px;
+}
 .info img{
-    height: 40px;
-    margin-left: 25px;
+    height: 6vh;
+    margin-left: 1.1vw;
+}
+.info2 img{
+    display: none;
+}
+.Search{
+    margin-left: 28vw;
+}
+.Search2{
+ display: none;
+}
+a{
+    color: white;
+    text-decoration: none;   
+}
+line{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width:480px){
+    .ul1{
+       display: none;
+    }
+    .ul1 li{
+        display: none;
+    }
+    .info{
+        display: none;
+    }
+    .Search{
+        display: none;
+    }
+    .menuiconopen{
+        color: white;
+        font-size: 22px;
+        margin-left: 60vw;
+        display: block;
+    }
+    .menuiconopenhide{
+        
+        display: none;
+    }
+    .menuiconclose{
+        color: white;
+        font-size: 22px;
+        margin-left: 60vw;
+        display: block;
+    }
+    .menuiconclosehide{
+        
+        display: none;
+    }
+    
+   
+   
 }

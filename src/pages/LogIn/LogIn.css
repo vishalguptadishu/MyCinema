@@ -1,0 +1,36 @@
+
+.LogIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .LogIn label {
+    margin-bottom: 8px;
+    color: white;
+  }
+  
+  .LogIn input {
+    margin-bottom: 16px;
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .LogIn button {
+   
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  @media (max-width: 480px) {
+    .LogIn {
+      width: 90%;
+      margin-left: 40px;
+    }
+  }
+  

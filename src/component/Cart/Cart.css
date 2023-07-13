@@ -1,26 +1,24 @@
 .Cart{
     display: flex;
-    /* align-items: center; */
     overflow-x:scroll;
     gap: 8px;
     margin-left: 10px;
- 
+
 }
 
-.Cart_main::-webkit-scrollbar {
+.Cart::-webkit-scrollbar {
     display: none;
 }
 .Cart_main{
     height: 250px;
-    width: 220px;
-    
+    width: 220px;   
 }
 
 .Cart_main img{
-height: 250px;
-width: 220px;
-border-radius: 15px;
-
+    height: 250px;
+    width: 220px;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 

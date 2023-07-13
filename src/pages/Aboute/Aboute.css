@@ -1,0 +1,35 @@
+.aboute {
+    text-align: center;
+    position: relative;
+   }
+
+.about_div{
+    display: flex;
+    gap: 30px;
+}
+
+.aboute img{
+  width: 90vw;
+}
+.aboute .about_div{
+    position: absolute;
+    width: 88vw;
+    height: 26vh;
+    display: flex;
+    flex-direction: column;
+    bottom:0vh;
+    display: flex;
+    align-items: start;
+    background: rgba(0, 0, 0, 0.5);
+    padding-left: 10vw;
+    align-items: start;
+    text-align: start;
+}
+.aboute .about_div p{
+    background-color: transparent;
+    margin-top: -4px;
+}
+
+#about_div{
+    background: rgba(0, 0, 0, 0.5)
+}

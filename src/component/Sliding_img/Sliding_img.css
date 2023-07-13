@@ -2,8 +2,6 @@
     margin: 0px;
     padding: 0px;
 }
-
-
 .Posters {
     display: flex;
     align-items: center;
@@ -20,12 +18,12 @@
 .div1 h1{
     margin-top: 60vh;
     color: white;
-    margin-left: 15px;
+    margin-left: 1.5vw;
 }
 .div1 p{
     margin-top: 8vh;
     color: white;
-    margin-left: 15px;
+    margin-left: 1.5vw;
     font-size: 14px;
 }
 button{
@@ -52,29 +50,77 @@ button{
 .button{
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    width: 100vw;
+   
 }
 .NextPrevBtn{
     display: flex;
-    align-items: center;
-    justify-content: end;
     gap: 20px;
     padding: 10px;
-    margin-right: -45vw;
+    /* margin-left:0vw; */
 } 
 
 .DotBar{
     color: rgb(28, 57, 138);
    display: flex;
    align-items: center;
-   justify-content: center;
+   /* justify-content: center; */
    gap: 6px;
    cursor: pointer;
    font-size: 22px;
-   margin-right:35vw;
+   margin-left:35vw;
 }
-.active{
+.activedot{
     color: rgb(231, 11, 121);
    font-size: 32px;
    
+   
+}
+
+@media only screen and (max-width:480px){
+
+    .div1{
+        color: white;
+        /* height: 90vh; */
+        /* width: 30vw; */
+       
+    }
+    .div1 h1{
+        margin-top: 60vh;
+        color: white;
+        margin-left: 7.5vw;
+        
+    }
+    .div1 p{
+        margin-top: 8vh;
+        color: white;
+        margin-left: 1.5vw;
+        font-size: 14px;
+        /* z-index: 100; */
+    }
+    button{
+        background-color: rgb(194, 57, 79);
+        margin-top: 10px;
+        margin-left: 15px;
+        padding:10px 20px 10px 20px;
+        border-radius: 10px;
+        border: 0px ;
+        font-weight: bold;
+        color: white;
+    }
+    .div2{
+        height: 90vh; 
+        width: 100vw;
+       
+    }
+    .div2 img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%; 
+        width: 100%;
+        /* z-index: 0; */
+        /* position: absolute; */
+    }
 }
